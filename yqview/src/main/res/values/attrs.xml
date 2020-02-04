@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StrokeTextView">
+        <attr name="outerColor" format="reference|color" />
+        <attr name="innerColor" format="color|reference" />
+        <attr name="borderStrokeWidth" format="integer"/>
+    </declare-styleable>
+    <attr name="strokeColor" format="color" />
+    <attr name="speed">
+        <enum name="speedOne" value="1" />
+        <enum name="speedTwo" value="2" />
+    </attr>
+
+    <declare-styleable name="RightDiaView">
+        <attr name="strokeColor" />
+        <attr name="speed" />
+    </declare-styleable>
+
+    <declare-styleable name="WrongDiaView">
+        <attr name="strokeColor" />
+        <attr name="speed" />
+    </declare-styleable>
+
+    <declare-styleable name="StateLinearLayout">
+        <attr name="linearAlpha" format="integer"/>
+        <attr name="linearSelectColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="StateFragmentLayout">
+        <attr name="fragmentAlpha" format="integer"/>
+        <attr name="fragmentSelectColor" format="color|reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ThumbnailView">
+        <attr name="thuAlpha" format="integer"/>
+        <attr name="thuSelectColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="color_tick" format="color"/>
+        <attr name="color_checked" format="color"/>
+        <attr name="color_unchecked" format="color"/>
+        <attr name="color_unchecked_stroke" format="color"/>
+    </declare-styleable>
+</resources>

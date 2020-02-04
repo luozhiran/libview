@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="yqfullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimAmount">10</item>
+    </style>
+
+    <style name="transparent_dialog">
+        <!--<item name="android:windowFrame">@null</item>&lt;!&ndash; 边框 &ndash;&gt;-->
+        <!--<item name="android:windowIsTranslucent">false</item>&lt;!&ndash; 半透明 &ndash;&gt;-->
+        <!--<item name="android:windowNoTitle">true</item>&lt;!&ndash; 无标题 &ndash;&gt;-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>&lt;!&ndash; 背景透明 &ndash;&gt;-->
+        <!--<item name="android:backgroundDimEnabled">false</item>&lt;!&ndash; 模糊 &ndash;&gt;-->
+        <!--<item name="android:backgroundDimAmount">0.9</item>&lt;!&ndash; 灰度 &ndash;&gt;-->
+        <!--<item name="android:windowContentOverlay">@null</item>&lt;!&ndash; 对话框是否有遮盖 &ndash;&gt;-->
+        <!--<item name="android:colorBackgroundCacheHint">@null</item>&lt;!&ndash; 背景缓存颜色 &ndash;&gt;-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <!--加载dialog的style-->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

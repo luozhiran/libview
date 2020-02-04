@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+android {
+    compileSdkVersion 28
+
+
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+/*
+//def URL = 'http://localhost:8081/repository/yq/'
+def URL = 'http://192.168.0.72:8081/repository/yqrepo/'
+def NAME = 'admin'
+def PASSWARD='admin123'
+def VERSION = "${aidlVersion}"
+def ARTIFACTID='aidl'
+def GROUPID='com.yqtec.aidl-lib'
+def PACKAGING='aar'
+def DESCRIPTION='工具库'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: URL) {
+                authentication(userName: NAME, password: PASSWARD)
+            }
+            pom.project {
+                version VERSION
+                artifactId ARTIFACTID
+                groupId GROUPID
+                packaging PACKAGING
+                description DESCRIPTION
+            }
+        }
+    }
+}*/
