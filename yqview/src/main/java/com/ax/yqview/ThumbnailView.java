@@ -71,7 +71,6 @@ public class ThumbnailView extends AppCompatImageView {
             drawable.setColorFilter(color, PorterDuff.Mode.MULTIPLY);
             drawable.setAlpha(linearAlpha);
         }
-
     }
 
     /**

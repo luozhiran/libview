@@ -1,4 +1,4 @@
-//package com.ax.yqview;
+package com.ax.yqview;//package com.ax.yqview;
 //
 //import android.animation.ValueAnimator;
 //import android.annotation.TargetApi;

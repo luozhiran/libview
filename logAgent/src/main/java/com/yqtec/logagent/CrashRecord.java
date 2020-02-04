@@ -1,15 +1,15 @@
 package com.yqtec.logagent;
 
-import java.io.File;
-import java.lang.Thread.UncaughtExceptionHandler;
+import android.util.Log;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.util.Log;
+import java.io.File;
+import java.lang.Thread.UncaughtExceptionHandler;
 
 class CrashRecord implements UncaughtExceptionHandler {
-	private Thread.UncaughtExceptionHandler mDefaultHandler;
+	private UncaughtExceptionHandler mDefaultHandler;
 
 	private static CrashRecord crashHandler;
 

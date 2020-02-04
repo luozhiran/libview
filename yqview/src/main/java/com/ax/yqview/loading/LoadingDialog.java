@@ -1,4 +1,4 @@
-//package com.ax.yqview.loading;
+package com.ax.yqview.loading;//package com.ax.yqview.loading;
 //
 //import android.app.Dialog;
 //import android.content.Context;

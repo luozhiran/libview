@@ -24,7 +24,7 @@ public class YqCommonDialog extends Dialog {
 
 
     public YqCommonDialog(Context context, float alpha, int gravity) {
-        super(context,R.style.yqfullscreen);
+        super(context, R.style.yqfullscreen);
         // TODO Auto-generated constructor stub
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setBackgroundDrawableResource(R.drawable.transparent);

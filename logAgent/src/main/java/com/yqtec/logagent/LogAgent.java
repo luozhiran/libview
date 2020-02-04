@@ -1,19 +1,5 @@
 package com.yqtec.logagent;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Locale;
-import java.util.concurrent.LinkedBlockingQueue;
-
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -33,6 +19,20 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.yqtec.logagent.ReportPolicy.Builder;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class LogAgent {
 
@@ -113,7 +113,7 @@ public class LogAgent {
 	 * @param policy
 	 *            发送策略
 	 */
-	public synchronized static void init(Context context, ReportPolicy policy,String uid) {
+	public synchronized static void init(Context context, ReportPolicy policy, String uid) {
 		if (policy == null || context == null) {
 			return;
 		}

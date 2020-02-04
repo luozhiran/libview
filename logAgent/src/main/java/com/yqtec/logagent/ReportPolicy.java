@@ -1,10 +1,10 @@
 package com.yqtec.logagent;
 
-import java.io.File;
+import android.os.Environment;
 
 import org.json.JSONObject;
 
-import android.os.Environment;
+import java.io.File;
 
 public class ReportPolicy {
 
