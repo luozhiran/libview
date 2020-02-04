@@ -14,7 +14,8 @@
 package com.sup.itg.crop.util;
 
 import android.graphics.RectF;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 /**
  * Utility class for handling calculations involving a fixed aspect ratio.

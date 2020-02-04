@@ -5,13 +5,15 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatTextView;
+
 import java.lang.reflect.Field;
 
-public class StrokeTextView extends android.support.v7.widget.AppCompatTextView {
+public class StrokeTextView extends AppCompatTextView {
 
     private int outerColor = 0x000000;
     private int innnerColor = 0xffffff;

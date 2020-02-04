@@ -14,7 +14,8 @@
 package com.sup.itg.crop.util;
 
 import android.graphics.PointF;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import com.sup.itg.crop.cropwindow.handle.Handle;
 

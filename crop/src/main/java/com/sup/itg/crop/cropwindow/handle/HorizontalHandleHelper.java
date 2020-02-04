@@ -14,7 +14,8 @@
 package com.sup.itg.crop.cropwindow.handle;
 
 import android.graphics.RectF;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import com.sup.itg.crop.cropwindow.edge.Edge;
 import com.sup.itg.crop.util.AspectRatioUtil;

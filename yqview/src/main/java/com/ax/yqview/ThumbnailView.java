@@ -7,11 +7,13 @@ import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 
+import androidx.appcompat.widget.AppCompatImageView;
+
 /**
  * Created by Administrator on 2018/3/14.
  */
 
-public class ThumbnailView extends android.support.v7.widget.AppCompatImageView {
+public class ThumbnailView extends AppCompatImageView {
     private boolean touchEffect = true;
     private int linearAlpha = 255;
     private int color;
