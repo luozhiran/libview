@@ -33,30 +33,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
-/*
-//def URL = 'http://localhost:8081/repository/yq/'
-def URL = 'http://192.168.0.72:8081/repository/yqrepo/'
-def NAME = 'admin'
-def PASSWARD='admin123'
-def VERSION = "${aidlVersion}"
-def ARTIFACTID='aidl'
-def GROUPID='com.yqtec.aidl-lib'
-def PACKAGING='aar'
-def DESCRIPTION='工具库'
 
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url: URL) {
-                authentication(userName: NAME, password: PASSWARD)
-            }
-            pom.project {
-                version VERSION
-                artifactId ARTIFACTID
-                groupId GROUPID
-                packaging PACKAGING
-                description DESCRIPTION
-            }
-        }
-    }
-}*/

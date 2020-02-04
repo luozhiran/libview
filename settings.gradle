@@ -1,2 +1,2 @@
-include ':app', ':ratingbar', ':yqview', ':aidl-lib'
+include ':app', ':ratingbar', ':yqview', ':aidl-lib', ':logAgent', ':lib-zxing', ':crop'
 rootProject.name='lib-view'

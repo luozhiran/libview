@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+
+    <!--<style name="AppBaseTheme" parent="Theme.AppCompat.Light">-->
+        <!--&lt;!&ndash; API 14 theme customizations can go here. &ndash;&gt;-->
+        <!--<item name="android:actionBarStyle">@style/my_actionbar_style</item>-->
+    <!--</style>-->
+
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+</resources>
